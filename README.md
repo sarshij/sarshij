@@ -56,12 +56,3 @@
 </p>
 
 ---
-
-### 📊 GitHub Stats & Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SarshijKarn&layout=compact&theme=radical&border_radius=10" alt="Top Langs" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=SarshijKarn&show_icons=true&theme=radical&rank_icon=github&border_radius=10" alt="GitHub Stats" width="48%"/>
-</p>
-
----
