@@ -34,19 +34,6 @@
 
 ---
 
-<h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=5000&color=8A2BE2&center=true&vCenter=true&width=700&lines=👨‍💻+About+Me" alt="Typing effect"/>
-</h2>
-
-<ul>
-  <li>🔍 Highly curious about <b>AI, automation, embedded systems, and cybersecurity</b></li>
-  <li>🧠 Focused on <b>learning, experimenting, and creating smart solutions</b></li>
-  <li>💡 Skilled in leveraging <b>AI tools, programming, and electronics</b> for practical innovation</li>
-  <li>⚡ Constantly improving <b>problem-solving, coding, and analytical skills</b></li>
-</ul>
-
----
-
 ### 🛠️ Tech Stack & Tools
 
 <p align="center">
