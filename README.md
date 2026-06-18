@@ -25,6 +25,13 @@
        alt="Tech Stack Animated"/>
 </p>
 
+<br>
+
+> [!WARNING]
+> **🚀 Plot Twist:** GitHub suspended my first two accounts. I'm on my 3rd life now! 🍄 (Not a newbie, just starting a fresh green square collection.)
+
+<br>
+
 ---
 
 <h2 align="center">
