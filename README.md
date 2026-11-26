@@ -1,8 +1,5 @@
 <div align="center">
 
-<code>+==[ 00 // IDENTITY.ASC ]==+</code>
-<br><br>
-
 <img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with full resume dossier">
 
 </div>
@@ -35,68 +32,3 @@
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="">
-
-<div align="center"><code>+==[ 01 // ABOUT.SH ]==+</code></div>
-<br>
-
-<img src="assets/terminal.svg" alt="Terminal session: whoami, cat about.json, ls ~/projects, ./start_transmission.sh" width="100%">
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<div align="center"><code>+==[ 02 // STACK.ASC ]==+</code></div>
-<br>
-
-<img src="assets/stack.svg" width="100%" alt="Sarshij Karn ASCII tech stack — silicon core chip and animated ASCII progress bars">
-
-```text
-sarshij@nepal:~$ tree ~/stack -L 2
-~/stack
-├── languages/    Python · C · C++ · JavaScript · TypeScript · Bash · PowerShell
-├── web_cloud/    React · Next.js · Vite · Node.js · HTML5 · CSS3 · Vercel · Cloudflare
-├── ai_vision/    TensorFlow · PyTorch · OpenCV · MediaPipe · SBERT · LLMs · n8n
-├── embedded/     MCUs · Arduino · Microprocessors · PCB Prototyping · Circuit Sim
-└── security/     Linux · Kali Linux · Networking · XSS/CORS Hardening · Git/Actions
-```
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<div align="center"><code>+==[ 03 // BUILDS.ASC ]==+</code></div>
-<br>
-
-<a href="https://github.com/sarshij?tab=repositories"><img src="assets/projects.svg" width="100%" alt="Sarshij Karn flagship projects in ASCII format — ClearHire, FaceShield, MedAssist, Sync, SmartVault, HyperQR"></a>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<div align="center"><code>+==[ 04 // ACHIEVEMENTS.LOG ]==+</code></div>
-<br>
-
-<img src="assets/achievements.svg" width="100%" alt="Sarshij Karn's achievements in ASCII format — Hackathon 2025, full merit scholarships, 4.00 GPA">
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<div align="center"><code>+==[ 05 // NOW &amp; TELEMETRY ]==+</code></div>
-
-```text
-sarshij@nepal:~$ cat ~/now.log
-┌────────────────────────────────────────────────────────────────────────────┐
-│ [~] Building AI-powered embedded & privacy-first tools                     │
-│ [~] Studying BEI (Electronics, Comm & Info) @ NCE, Tribhuvan University    │
-│ [~] Exploring cybersecurity, hardware security & cross-domain AI+Finance   │
-│ [~] Shipping updates to sarshijkarn.com.np                                 │
-│ [ ] Open to internships, freelance & collabs -> sarshijkarn.com.np         │
-└────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarshij&layout=compact&hide_border=true&bg_color=0d0b16&title_color=b47cff&text_color=d9d4ee" alt="Top languages">
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<img src="assets/secret.svg" width="100%" alt="Secret message in ASCII format">
-
-<br>
-
-<img src="assets/footer.svg" width="100%" alt="Built with passion and futuristic vision in Nepal">
