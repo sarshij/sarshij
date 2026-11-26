@@ -1,203 +1,159 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Sarshij's Tech Stack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 434" width="900" height="434" role="img" aria-label="Sarshij Karn technical stack">
 <defs>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
-    .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
-  </style>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#0d0b16"/>
-    <stop offset="100%" stop-color="#12102a"/>
+  <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#19e3e6"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0b16"/><stop offset="1" stop-color="#141029"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#19e3e6" stop-opacity="0"/>
+    <stop offset="50" stop-color="#19e3e6" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#19e3e6" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#8A2BE2"/>
-    <stop offset="100%" stop-color="#19e3e6"/>
-  </linearGradient>
-  <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#8A2BE2"/>
-    <stop offset="100%" stop-color="#b47cff"/>
-  </linearGradient>
-  <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#19e3e6"/>
-    <stop offset="100%" stop-color="#19e3e6" stop-opacity="0.5"/>
-  </linearGradient>
-  <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#e643c8"/>
-    <stop offset="100%" stop-color="#e643c8" stop-opacity="0.5"/>
-  </linearGradient>
-  <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#43e68d"/>
-    <stop offset="100%" stop-color="#43e68d" stop-opacity="0.5"/>
-  </linearGradient>
-  <linearGradient id="bar5" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#e6a543"/>
-    <stop offset="100%" stop-color="#e6a543" stop-opacity="0.5"/>
-  </linearGradient>
-  <linearGradient id="bar6" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#43a8e6"/>
-    <stop offset="100%" stop-color="#43a8e6" stop-opacity="0.5"/>
-  </linearGradient>
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="glow-strong">
-    <feGaussianBlur stdDeviation="6" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <clipPath id="chip-clip">
-    <rect x="30" y="20" width="260" height="380" rx="12"/>
-  </clipPath>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/></pattern>
+  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="win"><rect width="900" height="434" rx="14"/></clipPath>
+  <clipPath id="chipbox"><rect x="20" y="54" width="268" height="360" rx="10"/></clipPath>
+  <linearGradient id="g0" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#b47cff"/></linearGradient><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#19e3e6"/><stop offset="1" stop-color="#67e8f9"/></linearGradient><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#ff2bd6"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#86efac"/></linearGradient><linearGradient id="g4" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#fcd34d"/></linearGradient><linearGradient id="g5" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
 </defs>
+<g clip-path="url(#win)" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,'Courier New',monospace">
+  <rect width="900" height="434" fill="url(#bg)"/>
+  <rect width="900" height="434" fill="url(#grid)"/>
 
-<!-- BG -->
-<rect width="900" height="420" fill="url(#bg)" rx="16"/>
+  <!-- Matching Terminal Window Titlebar -->
+  <rect width="900" height="38" fill="#15122a"/>
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f57" opacity=".88"/><circle cx="42" cy="19" r="5.5" fill="#febc2e" opacity=".88"/><circle cx="62" cy="19" r="5.5" fill="#28c840" opacity=".88"/>
+  <text x="450.0" y="23" text-anchor="middle" font-size="11.5" fill="#7b7399">sarshij@nepal: ~/stack --hardware-software</text>
 
-<!-- Scanline overlay -->
-<rect width="900" height="420" fill="none" rx="16" stroke="#8A2BE2" stroke-width="1" opacity="0.4"/>
+  <!-- Left IC Chip HUD Card (matching ascii-face portrait box) -->
+  <rect x="20" y="54" width="268" height="360" rx="10" fill="#090714" stroke="#8A2BE2" stroke-width="1" stroke-opacity="0.4"/>
+  <path d="M28 72V60H40M268 60H280V72M280 396V408H268M40 408H28V396" fill="none" stroke="#19e3e6" stroke-width="1.5" opacity="0.65"/>
 
-<!-- Animated scanline sweep -->
-<rect x="0" y="0" width="900" height="2" fill="#8A2BE2" opacity="0.08" rx="1">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="0 420" dur="4s" repeatCount="indefinite"/>
-</rect>
+  <g clip-path="url(#chipbox)">
+    <rect x="78" y="102" width="152" height="224" rx="8" fill="#0f0c22" stroke="#19e3e6" stroke-width="1" stroke-opacity="0.55"/>
+    <path d="M78 116V102H92M216 102H230V116M230 312V326H216M92 326H78V312" fill="none" stroke="#19e3e6" stroke-width="1.8"/>
 
-<!-- ══════════ LEFT: CIRCUIT CHIP ══════════ -->
-<g clip-path="url(#chip-clip)">
-  <!-- Chip body -->
-  <rect x="30" y="20" width="260" height="380" rx="12" fill="#0a0818" stroke="#8A2BE2" stroke-width="1.5"/>
-  <!-- Chip inner -->
-  <rect x="80" y="90" width="160" height="230" rx="6" fill="#0d0b1e" stroke="#8A2BE2" stroke-width="1" opacity="0.8"/>
-  <!-- Chip label -->
-  <text x="160" y="68" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="9" fill="#8A2BE2" letter-spacing="4" opacity="0.9">S A R S H I J</text>
-  <text x="160" y="82" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#19e3e6" letter-spacing="2" opacity="0.6">BEI · NCE · T.U.</text>
+    <text x="154" y="80" text-anchor="middle" font-size="10" fill="#b47cff" letter-spacing="4">S A R S H I J</text>
+    <text x="154" y="93" text-anchor="middle" font-size="8.5" fill="#19e3e6" letter-spacing="2" opacity="0.75">BEI · NCE · T.U.</text>
 
-  <!-- Chip core label -->
-  <text x="160" y="185" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#b47cff" letter-spacing="1" font-weight="bold" filter="url(#glow)">SARSHIJ</text>
-  <text x="160" y="202" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="8" fill="#19e3e6" letter-spacing="2" opacity="0.7">0x8F2A</text>
-  <text x="160" y="218" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#d9d4ee" letter-spacing="1" opacity="0.5">█▓▒░ CORE ░▒▓█</text>
-  <text x="160" y="236" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="7" fill="#e643c8" letter-spacing="1" opacity="0.6">AI · SECURITY · EMBEDDED</text>
+    <line x1="34" y1="122" x2="78" y2="122" stroke="#19e3e6" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="122" r="2.8" fill="#19e3e6"/><line x1="34" y1="148" x2="78" y2="148" stroke="#b47cff" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="148" r="2.8" fill="#b47cff"/><line x1="34" y1="174" x2="78" y2="174" stroke="#19e3e6" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="174" r="2.8" fill="#19e3e6"/><line x1="34" y1="200" x2="78" y2="200" stroke="#b47cff" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="200" r="2.8" fill="#b47cff"/><line x1="34" y1="226" x2="78" y2="226" stroke="#19e3e6" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="226" r="2.8" fill="#19e3e6"/><line x1="34" y1="252" x2="78" y2="252" stroke="#b47cff" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="252" r="2.8" fill="#b47cff"/><line x1="34" y1="278" x2="78" y2="278" stroke="#19e3e6" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="278" r="2.8" fill="#19e3e6"/><line x1="34" y1="304" x2="78" y2="304" stroke="#b47cff" stroke-width="1.6" opacity="0.65"/><circle cx="34" cy="304" r="2.8" fill="#b47cff"/>
+    <line x1="230" y1="122" x2="274" y2="122" stroke="#ff2bd6" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="122" r="2.8" fill="#ff2bd6"/><line x1="230" y1="148" x2="274" y2="148" stroke="#4ade80" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="148" r="2.8" fill="#4ade80"/><line x1="230" y1="174" x2="274" y2="174" stroke="#ff2bd6" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="174" r="2.8" fill="#ff2bd6"/><line x1="230" y1="200" x2="274" y2="200" stroke="#4ade80" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="200" r="2.8" fill="#4ade80"/><line x1="230" y1="226" x2="274" y2="226" stroke="#ff2bd6" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="226" r="2.8" fill="#ff2bd6"/><line x1="230" y1="252" x2="274" y2="252" stroke="#4ade80" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="252" r="2.8" fill="#4ade80"/><line x1="230" y1="278" x2="274" y2="278" stroke="#ff2bd6" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="278" r="2.8" fill="#ff2bd6"/><line x1="230" y1="304" x2="274" y2="304" stroke="#4ade80" stroke-width="1.6" opacity="0.65"/><circle cx="274" cy="304" r="2.8" fill="#4ade80"/>
+    <circle cy="122" r="2.2" fill="#19e3e6"><animate attributeName="cx" values="78;34;78" dur="1.80s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.80s" repeatCount="indefinite"/></circle><circle cy="122" r="2.2" fill="#ff2bd6"><animate attributeName="cx" values="230;274;230" dur="1.80s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.80s" begin="0.4s" repeatCount="indefinite"/></circle><circle cy="174" r="2.2" fill="#19e3e6"><animate attributeName="cx" values="78;34;78" dur="2.30s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.30s" repeatCount="indefinite"/></circle><circle cy="174" r="2.2" fill="#ff2bd6"><animate attributeName="cx" values="230;274;230" dur="2.30s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.30s" begin="0.4s" repeatCount="indefinite"/></circle><circle cy="226" r="2.2" fill="#19e3e6"><animate attributeName="cx" values="78;34;78" dur="2.80s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.80s" repeatCount="indefinite"/></circle><circle cy="226" r="2.2" fill="#ff2bd6"><animate attributeName="cx" values="230;274;230" dur="2.80s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="2.80s" begin="0.4s" repeatCount="indefinite"/></circle><circle cy="278" r="2.2" fill="#19e3e6"><animate attributeName="cx" values="78;34;78" dur="3.30s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="3.30s" repeatCount="indefinite"/></circle><circle cy="278" r="2.2" fill="#ff2bd6"><animate attributeName="cx" values="230;274;230" dur="3.30s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="3.30s" begin="0.4s" repeatCount="indefinite"/></circle>
 
-  <!-- Pin rows left -->
-  <line x1="30" y1="110" x2="80" y2="110" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="135" x2="80" y2="135" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="160" x2="80" y2="160" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="185" x2="80" y2="185" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="210" x2="80" y2="210" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="235" x2="80" y2="235" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="260" x2="80" y2="260" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="285" x2="80" y2="285" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <line x1="30" y1="310" x2="80" y2="310" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <!-- Pin rows right -->
-  <line x1="240" y1="110" x2="290" y2="110" stroke="#e643c8" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="135" x2="290" y2="135" stroke="#e643c8" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="160" x2="290" y2="160" stroke="#43e68d" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="185" x2="290" y2="185" stroke="#43e68d" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="210" x2="290" y2="210" stroke="#e643c8" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="235" x2="290" y2="235" stroke="#e643c8" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="260" x2="290" y2="260" stroke="#43e68d" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="285" x2="290" y2="285" stroke="#43e68d" stroke-width="1.5" opacity="0.7"/>
-  <line x1="240" y1="310" x2="290" y2="310" stroke="#e643c8" stroke-width="1.5" opacity="0.7"/>
-  <!-- Pin dots left -->
-  <circle cx="30" cy="110" r="3" fill="#19e3e6"/><circle cx="30" cy="135" r="3" fill="#19e3e6"/><circle cx="30" cy="160" r="3" fill="#b47cff"/><circle cx="30" cy="185" r="3" fill="#b47cff"/><circle cx="30" cy="210" r="3" fill="#19e3e6"/><circle cx="30" cy="235" r="3" fill="#19e3e6"/><circle cx="30" cy="260" r="3" fill="#b47cff"/><circle cx="30" cy="285" r="3" fill="#b47cff"/><circle cx="30" cy="310" r="3" fill="#19e3e6"/>
-  <!-- Pin dots right -->
-  <circle cx="290" cy="110" r="3" fill="#e643c8"/><circle cx="290" cy="135" r="3" fill="#e643c8"/><circle cx="290" cy="160" r="3" fill="#43e68d"/><circle cx="290" cy="185" r="3" fill="#43e68d"/><circle cx="290" cy="210" r="3" fill="#e643c8"/><circle cx="290" cy="235" r="3" fill="#e643c8"/><circle cx="290" cy="260" r="3" fill="#43e68d"/><circle cx="290" cy="285" r="3" fill="#43e68d"/><circle cx="290" cy="310" r="3" fill="#e643c8"/>
-  <!-- Pin bottom -->
-  <line x1="100" y1="320" x2="100" y2="400" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <line x1="130" y1="320" x2="130" y2="400" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="160" y1="320" x2="160" y2="400" stroke="#8A2BE2" stroke-width="1.5" opacity="0.7"/>
-  <line x1="190" y1="320" x2="190" y2="400" stroke="#19e3e6" stroke-width="1.5" opacity="0.7"/>
-  <line x1="220" y1="320" x2="220" y2="400" stroke="#b47cff" stroke-width="1.5" opacity="0.7"/>
-  <circle cx="100" cy="400" r="3" fill="#b47cff"/><circle cx="130" cy="400" r="3" fill="#19e3e6"/><circle cx="160" cy="400" r="3" fill="#8A2BE2"/><circle cx="190" cy="400" r="3" fill="#19e3e6"/><circle cx="220" cy="400" r="3" fill="#b47cff"/>
+    <!-- Bottom pins -->
+    <line x1="108" y1="326" x2="108" y2="376" stroke="#b47cff" stroke-width="1.5" opacity="0.6"/><circle cx="108" cy="376" r="2.8" fill="#b47cff"/>
+    <line x1="138" y1="326" x2="138" y2="376" stroke="#19e3e6" stroke-width="1.5" opacity="0.6"/><circle cx="138" cy="376" r="2.8" fill="#19e3e6"/>
+    <line x1="168" y1="326" x2="168" y2="376" stroke="#8A2BE2" stroke-width="1.5" opacity="0.6"/><circle cx="168" cy="376" r="2.8" fill="#8A2BE2"/>
+    <line x1="198" y1="326" x2="198" y2="376" stroke="#19e3e6" stroke-width="1.5" opacity="0.6"/><circle cx="198" cy="376" r="2.8" fill="#19e3e6"/>
 
-  <!-- Animated pulse on chip core -->
-  <circle cx="160" cy="207" r="55" fill="none" stroke="#8A2BE2" stroke-width="1" opacity="0">
-    <animate attributeName="r" values="55;75;55" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+    <!-- Chip Core Pulse -->
+    <circle cx="154" cy="214" r="44" fill="none" stroke="#8A2BE2" stroke-width="1">
+      <animate attributeName="r" values="36;62;36" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="154" cy="214" r="26" fill="none" stroke="#19e3e6" stroke-width="0.9">
+      <animate attributeName="r" values="24;48;24" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.45;0;0.45" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="154" y="201" text-anchor="middle" font-size="14" font-weight="800" fill="#b47cff" filter="url(#gl)" letter-spacing="1.5">0x8F2A</text>
+    <text x="154" y="219" text-anchor="middle" font-size="9.5" fill="#19e3e6" letter-spacing="2">NEURAL CORE</text>
+    <text x="154" y="238" text-anchor="middle" font-size="8" fill="#7b7399">AI · SEC · EMBEDDED</text>
+
+    <!-- Subtle vertical scanline inside chip HUD -->
+    <rect x="20" y="54" width="268" height="28" fill="url(#scan)">
+      <animateTransform attributeName="transform" type="translate" from="0 -30" to="0 370" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- HUD footer inside chip card -->
+  <circle cx="38" cy="398" r="3.5" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="160" cy="207" r="55" fill="none" stroke="#19e3e6" stroke-width="0.5" opacity="0">
-    <animate attributeName="r" values="40;65;40" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
+  <text x="48" y="401" font-size="9" fill="#7b7399" letter-spacing="1">SILICON // ONLINE</text>
 
-  <!-- Corner marks -->
-  <path d="M80 90 L93 90 M80 90 L80 103" stroke="#19e3e6" stroke-width="1.5" fill="none" opacity="0.6"/>
-  <path d="M240 90 L227 90 M240 90 L240 103" stroke="#19e3e6" stroke-width="1.5" fill="none" opacity="0.6"/>
-  <path d="M80 320 L93 320 M80 320 L80 307" stroke="#19e3e6" stroke-width="1.5" fill="none" opacity="0.6"/>
-  <path d="M240 320 L227 320 M240 320 L240 307" stroke="#19e3e6" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Center Vertical Dashed Divider -->
+  <line x1="304" y1="54" x2="304" y2="414" stroke="url(#bd)" stroke-width="1" stroke-dasharray="4 4" opacity="0.45"/>
 
-  <!-- Animated data flow left pin -->
-  <circle cx="30" cy="110" r="2" fill="#19e3e6" opacity="0">
-    <animate attributeName="cx" values="80;30;80" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="30" cy="185" r="2" fill="#b47cff" opacity="0">
-    <animate attributeName="cx" values="30;80;30" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Right Skill Matrix -->
+  <g font-size="11.5"><text x="322.0" y="72.0" fill="#b47cff" textLength="47.6" lengthAdjust="spacing">sarshij</text><text x="369.6" y="72.0" fill="#7b7399" textLength="6.8" lengthAdjust="spacing">@</text><text x="376.4" y="72.0" fill="#19e3e6" textLength="34.0" lengthAdjust="spacing">nepal</text><text x="410.4" y="72.0" fill="#7b7399" textLength="27.2" lengthAdjust="spacing">:~$ </text><text x="437.6" y="72.0" fill="#e8e4f5" textLength="102.0" lengthAdjust="spacing">cat skills.json</text></g>
+  <line x1="322.0" y1="81" x2="872" y2="81" stroke="url(#bd)" stroke-width="1" opacity="0.55"/>
+  
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="104.0" fill="#b47cff" textLength="59.4" lengthAdjust="spacing">LANGUAGES</text></g>
+    <g font-size="10"><text x="322.0" y="119.0" fill="#c4bddb" textLength="201.3" lengthAdjust="spacing">Python · C · C++ · JS · TS · Bash</text></g>
+    <rect x="322.0" y="125" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="125" width="0" height="8" rx="4" fill="url(#g0)">
+      <animate attributeName="width" from="0" to="447.1" dur="1.2s" begin="0.00s" fill="freeze"/>
+    </rect>
+    <circle cy="129" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;769.1" dur="2.6s" begin="1.20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="1.20s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="133.0" fill="#b47cff" textLength="20.4" lengthAdjust="spacing">92%</text></g>
+  </g>
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="155.0" fill="#67e8f9" textLength="72.6" lengthAdjust="spacing">WEB &amp; CLOUD</text></g>
+    <g font-size="10"><text x="322.0" y="170.0" fill="#c4bddb" textLength="256.2" lengthAdjust="spacing">React · Next.js · HTML5/CSS3 · Vercel · CF</text></g>
+    <rect x="322.0" y="176" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="176" width="0" height="8" rx="4" fill="url(#g1)">
+      <animate attributeName="width" from="0" to="408.2" dur="1.2s" begin="0.18s" fill="freeze"/>
+    </rect>
+    <circle cy="180" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;730.2" dur="2.6s" begin="1.38s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="1.38s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="184.0" fill="#67e8f9" textLength="20.4" lengthAdjust="spacing">84%</text></g>
+  </g>
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="206.0" fill="#f472b6" textLength="72.6" lengthAdjust="spacing">AI &amp; VISION</text></g>
+    <g font-size="10"><text x="322.0" y="221.0" fill="#c4bddb" textLength="262.3" lengthAdjust="spacing">OpenCV · MediaPipe · SBERT · PyTorch · LLMs</text></g>
+    <rect x="322.0" y="227" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="227" width="0" height="8" rx="4" fill="url(#g2)">
+      <animate attributeName="width" from="0" to="418.0" dur="1.2s" begin="0.36s" fill="freeze"/>
+    </rect>
+    <circle cy="231" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;740.0" dur="2.6s" begin="1.56s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="1.56s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="235.0" fill="#f472b6" textLength="20.4" lengthAdjust="spacing">86%</text></g>
+  </g>
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="257.0" fill="#86efac" textLength="92.4" lengthAdjust="spacing">EMBEDDED &amp; PCB</text></g>
+    <g font-size="10"><text x="322.0" y="272.0" fill="#c4bddb" textLength="280.6" lengthAdjust="spacing">MCUs · Arduino · PCB Prototyping · Circuit Sim</text></g>
+    <rect x="322.0" y="278" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="278" width="0" height="8" rx="4" fill="url(#g3)">
+      <animate attributeName="width" from="0" to="427.7" dur="1.2s" begin="0.54s" fill="freeze"/>
+    </rect>
+    <circle cy="282" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;749.7" dur="2.6s" begin="1.74s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="1.74s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="286.0" fill="#86efac" textLength="20.4" lengthAdjust="spacing">88%</text></g>
+  </g>
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="308.0" fill="#fcd34d" textLength="85.8" lengthAdjust="spacing">CYBERSECURITY</text></g>
+    <g font-size="10"><text x="322.0" y="323.0" fill="#c4bddb" textLength="274.5" lengthAdjust="spacing">Linux · Kali · Networking · Turnstile · OSINT</text></g>
+    <rect x="322.0" y="329" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="329" width="0" height="8" rx="4" fill="url(#g4)">
+      <animate attributeName="width" from="0" to="388.8" dur="1.2s" begin="0.72s" fill="freeze"/>
+    </rect>
+    <circle cy="333" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;710.8" dur="2.6s" begin="1.92s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="1.92s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="337.0" fill="#fcd34d" textLength="20.4" lengthAdjust="spacing">80%</text></g>
+  </g>
+  <g>
+    <g font-size="10.5" font-weight="700" letter-spacing="1"><text x="322.0" y="359.0" fill="#7dd3fc" textLength="66.0" lengthAdjust="spacing">AUTOMATION</text></g>
+    <g font-size="10"><text x="322.0" y="374.0" fill="#c4bddb" textLength="268.4" lengthAdjust="spacing">Git · GitHub Actions · n8n · Zapier · Docker</text></g>
+    <rect x="322.0" y="380" width="486.0" height="8" rx="4" fill="#1a1530"/>
+    <rect x="322.0" y="380" width="0" height="8" rx="4" fill="url(#g5)">
+      <animate attributeName="width" from="0" to="413.1" dur="1.2s" begin="0.90s" fill="freeze"/>
+    </rect>
+    <circle cy="384" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="322.0;735.1" dur="2.6s" begin="2.10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" begin="2.10s" repeatCount="indefinite"/>
+    </circle>
+    <g font-size="10.5" font-weight="700"><text x="822.0" y="388.0" fill="#7dd3fc" textLength="20.4" lengthAdjust="spacing">85%</text></g>
+  </g>
 </g>
-
-<!-- ══════════ RIGHT: SKILL BARS ══════════ -->
-<g transform="translate(320, 20)">
-  <!-- Section header -->
-  <text x="0" y="22" font-family="'JetBrains Mono',monospace" font-size="10" fill="#19e3e6" letter-spacing="3" opacity="0.7">sarshij@nepal:~$ cat skills.json</text>
-  <line x1="0" y1="30" x2="560" y2="30" stroke="url(#accent)" stroke-width="1" opacity="0.5"/>
-
-  <!-- LANGUAGES -->
-  <text x="0" y="58" font-family="'JetBrains Mono',monospace" font-size="9" fill="#b47cff" letter-spacing="2">LANGUAGES</text>
-  <text x="0" y="76" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">Python · C/C++ · JavaScript · TypeScript · Bash</text>
-  <!-- bar bg -->
-  <rect x="0" y="82" width="560" height="8" rx="4" fill="#1a1530"/>
-  <!-- bar fill animated -->
-  <rect x="0" y="82" width="0" height="8" rx="4" fill="url(#bar1)">
-    <animate attributeName="width" from="0" to="504" dur="1.4s" fill="freeze" begin="0.2s"/>
-  </rect>
-  <text x="512" y="90" font-family="'JetBrains Mono',monospace" font-size="8" fill="#b47cff">90%</text>
-
-  <!-- WEB / FRONTEND -->
-  <text x="0" y="114" font-family="'JetBrains Mono',monospace" font-size="9" fill="#19e3e6" letter-spacing="2">WEB · FRONTEND</text>
-  <text x="0" y="132" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">React · Next.js · Vite · Node · HTML/CSS</text>
-  <rect x="0" y="138" width="560" height="8" rx="4" fill="#1a1530"/>
-  <rect x="0" y="138" width="0" height="8" rx="4" fill="url(#bar2)">
-    <animate attributeName="width" from="0" to="448" dur="1.4s" fill="freeze" begin="0.4s"/>
-  </rect>
-  <text x="456" y="146" font-family="'JetBrains Mono',monospace" font-size="8" fill="#19e3e6">80%</text>
-
-  <!-- AI / ML -->
-  <text x="0" y="170" font-family="'JetBrains Mono',monospace" font-size="9" fill="#e643c8" letter-spacing="2">AI · ML</text>
-  <text x="0" y="188" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">TensorFlow · PyTorch · OpenCV · MediaPipe · SBERT</text>
-  <rect x="0" y="194" width="560" height="8" rx="4" fill="#1a1530"/>
-  <rect x="0" y="194" width="0" height="8" rx="4" fill="url(#bar3)">
-    <animate attributeName="width" from="0" to="420" dur="1.4s" fill="freeze" begin="0.6s"/>
-  </rect>
-  <text x="428" y="202" font-family="'JetBrains Mono',monospace" font-size="8" fill="#e643c8">75%</text>
-
-  <!-- EMBEDDED -->
-  <text x="0" y="226" font-family="'JetBrains Mono',monospace" font-size="9" fill="#43e68d" letter-spacing="2">EMBEDDED · HARDWARE</text>
-  <text x="0" y="244" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">Arduino · MCUs · PCB design · Circuit simulation</text>
-  <rect x="0" y="250" width="560" height="8" rx="4" fill="#1a1530"/>
-  <rect x="0" y="250" width="0" height="8" rx="4" fill="url(#bar4)">
-    <animate attributeName="width" from="0" to="476" dur="1.4s" fill="freeze" begin="0.8s"/>
-  </rect>
-  <text x="484" y="258" font-family="'JetBrains Mono',monospace" font-size="8" fill="#43e68d">85%</text>
-
-  <!-- SECURITY -->
-  <text x="0" y="282" font-family="'JetBrains Mono',monospace" font-size="9" fill="#e6a543" letter-spacing="2">SECURITY · OS</text>
-  <text x="0" y="300" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">Linux · Kali · networking · automation · CTF</text>
-  <rect x="0" y="306" width="560" height="8" rx="4" fill="#1a1530"/>
-  <rect x="0" y="306" width="0" height="8" rx="4" fill="url(#bar5)">
-    <animate attributeName="width" from="0" to="392" dur="1.4s" fill="freeze" begin="1.0s"/>
-  </rect>
-  <text x="400" y="314" font-family="'JetBrains Mono',monospace" font-size="8" fill="#e6a543">70%</text>
-
-  <!-- DEVOPS / WORKFLOW -->
-  <text x="0" y="338" font-family="'JetBrains Mono',monospace" font-size="9" fill="#43a8e6" letter-spacing="2">DEVOPS · WORKFLOW</text>
-  <text x="0" y="356" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">Git · GitHub Actions · Docker · VS Code · n8n</text>
-  <rect x="0" y="362" width="560" height="8" rx="4" fill="#1a1530"/>
-  <rect x="0" y="362" width="0" height="8" rx="4" fill="url(#bar6)">
-    <animate attributeName="width" from="0" to="435" dur="1.4s" fill="freeze" begin="1.2s"/>
-  </rect>
-  <text x="443" y="370" font-family="'JetBrains Mono',monospace" font-size="8" fill="#43a8e6">78%</text>
-
-  <!-- Bottom tag -->
-  <text x="0" y="398" font-family="'JetBrains Mono',monospace" font-size="8" fill="#8A2BE2" opacity="0.5" letter-spacing="1">[ electronics engineer · AI · cybersecurity · Nepal ]</text>
-</g>
+<rect x=".75" y=".75" width="898.5" height="432.5" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>

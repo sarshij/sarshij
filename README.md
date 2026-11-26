@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn, electronics engineer. AI and cybersecurity." width="100%"></a>
+<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn — Electronics engineer. Teaching circuits to think, and keeping them secure. Google Me: Sarshij Karn." width="100%"></a>
 
 <br>
 
@@ -38,7 +38,9 @@
 
 <!-- ░░░ STACK ░░░ -->
 
-<img src="assets/stack.svg" width="100%" alt="Sarshij's tech stack — circuit chip with animated skill bars">
+<h2 align="center">Stack</h2>
+
+<img src="assets/stack.svg" width="100%" alt="Sarshij's tech stack — neural core IC chip with animated skill bars">
 
 <div align="center">
 
@@ -51,15 +53,27 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ░░░ IDENTITY / ASCII FACE ░░░ -->
+<!-- ░░░ IDENTITY / ASCII PORTRAIT & DOSSIER ░░░ -->
 
-<img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with identity panel">
+<h2 align="center">Identity</h2>
+
+<img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with full resume dossier">
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<!-- ░░░ PROJECTS ░░░ -->
+
+<h2 align="center">Builds</h2>
+
+<a href="https://github.com/sarshij?tab=repositories"><img src="assets/projects.svg" width="100%" alt="Sarshij Karn flagship projects — ClearHire, FaceShield, MedAssist, Sync, SmartVault, HyperQR"></a>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
 <!-- ░░░ ACHIEVEMENTS ░░░ -->
 
-<img src="assets/achievements.svg" width="100%" alt="Sarshij Karn's achievements — hackathon, scholarships, perfect GPA">
+<h2 align="center">Achievements</h2>
+
+<img src="assets/achievements.svg" width="100%" alt="Sarshij Karn's achievements — Hackathon 2025, full merit scholarships, 4.00 GPA">
 
 <img src="assets/divider.svg" width="100%" alt="">
 

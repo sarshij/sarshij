@@ -1,99 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Sarshij Karn's achievements">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 326" width="900" height="326" role="img" aria-label="Sarshij Karn achievements and awards">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#0d0b16"/>
-    <stop offset="100%" stop-color="#0a0818"/>
-  </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#8A2BE2"/>
-    <stop offset="100%" stop-color="#19e3e6"/>
-  </linearGradient>
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="card-shadow">
-    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#8A2BE2" flood-opacity="0.3"/>
-  </filter>
+  <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#19e3e6"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0b16"/><stop offset="1" stop-color="#141029"/></linearGradient>
+  <clipPath id="win"><rect width="900" height="326" rx="14"/></clipPath>
 </defs>
-
-<rect width="900" height="320" fill="url(#bg)" rx="16"/>
-<rect width="900" height="320" fill="none" rx="16" stroke="#8A2BE2" stroke-width="1" opacity="0.4"/>
-
-<!-- Header -->
-<text x="450" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#19e3e6" letter-spacing="5" opacity="0.8">[ ./achievements.sh · UNLOCKED ]</text>
-<line x1="40" y1="44" x2="860" y2="44" stroke="url(#accent)" stroke-width="1" opacity="0.5"/>
-
-<!-- Achievement cards -->
-<!-- Card 1: Hackathon -->
-<g transform="translate(40, 60)" filter="url(#card-shadow)">
-  <rect width="250" height="100" rx="10" fill="#12102a" stroke="#8A2BE2" stroke-width="1.2"/>
-  <rect width="250" height="4" rx="2" fill="url(#accent)" y="0"/>
-  <text x="14" y="30" font-family="'JetBrains Mono',monospace" font-size="18" fill="#b47cff" filter="url(#glow)">🏆</text>
-  <text x="44" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#b47cff" font-weight="bold" letter-spacing="1">HACKATHON FINALIST</text>
-  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">Startup Hackathon 2025</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="7" fill="#d9d4ee" opacity="0.6">"AI for Social Impact &amp; Scale"</text>
-  <text x="14" y="77" font-family="'JetBrains Mono',monospace" font-size="7" fill="#8A2BE2" opacity="0.7">The Startup Network · Embark · PHDCCI</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ 2025 ]</text>
+<g clip-path="url(#win)" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,'Courier New',monospace">
+  <rect width="900" height="326" fill="url(#bg)"/>
+  <g font-size="11.5"><text x="28.0" y="39.0" fill="#b47cff" textLength="47.6" lengthAdjust="spacing">sarshij</text><text x="75.6" y="39.0" fill="#7b7399" textLength="6.8" lengthAdjust="spacing">@</text><text x="82.4" y="39.0" fill="#19e3e6" textLength="34.0" lengthAdjust="spacing">nepal</text><text x="116.4" y="39.0" fill="#7b7399" textLength="27.2" lengthAdjust="spacing">:~$ </text><text x="143.6" y="39.0" fill="#e8e4f5" textLength="190.4" lengthAdjust="spacing">./achievements.sh --unlocked</text></g>
+  <text x="872" y="39" text-anchor="end" font-size="9.5" fill="#4ade80">● 6 / 6 UNLOCKED</text>
+  <line x1="28" y1="48" x2="872" y2="48" stroke="url(#bd)" stroke-width="1" opacity="0.5"/>
+  
+  <g transform="translate(28,64)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#b47cff" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#b47cff" opacity="0.85"/>
+    <g transform="translate(12,14)"><path d="M7 4h10v5a5 5 0 01-10 0V4zM7 6H4v2a3 3 0 003 3M17 6h3v2a3 3 0 01-3 3M12 14v4M8 20h8" fill="none" stroke="#b47cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#b47cff" letter-spacing="0.4">STARTUP HACKATHON 2025</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">AI for Social Impact &amp; Scale</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#b47cff" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">The Startup Network · Embark</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">PHDCCI India-Nepal Centre</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 2025 ]</text>
+  </g>
+  <g transform="translate(317,64)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#19e3e6" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#19e3e6" opacity="0.85"/>
+    <g transform="translate(12,14)"><path d="M12 4L2 9l10 5 10-5-10-5zM6 11.5V16c0 1.8 2.7 3 6 3s6-1.2 6-3v-4.5" fill="none" stroke="#19e3e6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#19e3e6" letter-spacing="0.4">FULL MERIT SCHOLARSHIP</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">National College of Engg</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#19e3e6" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">100% Engineering Scholarship</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">BEI Program · T.U. Affiliate</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ MERIT ]</text>
+  </g>
+  <g transform="translate(606,64)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#ff2bd6" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#ff2bd6" opacity="0.85"/>
+    <g transform="translate(12,14)"><circle cx="12" cy="9" r="5" fill="none" stroke="#ff2bd6" stroke-width="1.8"/><path d="M9 13.5L7.5 21 12 18.5 16.5 21 15 13.5" fill="none" stroke="#ff2bd6" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#ff2bd6" letter-spacing="0.4">MERIT SCHOLARSHIP</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Liverpool Int'l College</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#ff2bd6" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Grade XII Academic Excellence</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">NEB Board · GPA 3.53</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ HONOR ]</text>
+  </g>
+  <g transform="translate(28,190)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#4ade80" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#4ade80" opacity="0.85"/>
+    <g transform="translate(12,14)"><path d="M12 3l2.6 5.5 6 .8-4.3 4.2 1 6-5.3-2.9-5.3 2.9 1-6L3.4 9.3l6-.8L12 3z" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#4ade80" letter-spacing="0.4">PERFECT 4.00 GPA</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Grade X National Board</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#4ade80" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Happyland Secondary School</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Flawless 4.00 / 4.00 Score</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 4.00 ]</text>
+  </g>
+  <g transform="translate(317,190)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#f59e0b" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#f59e0b" opacity="0.85"/>
+    <g transform="translate(12,14)"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#f59e0b" letter-spacing="0.4">ENTRANCE CRACKED</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">First-Attempt Selection</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#f59e0b" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Cleared Competitive National</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Engineering Entrance Exam</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 1ST TRY ]</text>
+  </g>
+  <g transform="translate(606,190)">
+    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#38bdf8" stroke-width="1.1" stroke-opacity="0.55"/>
+    <rect width="266" height="3" rx="1.5" fill="#38bdf8" opacity="0.85"/>
+    <g transform="translate(12,14)"><path d="M7 18a4 4 0 01-.8-7.9A5.5 5.5 0 0117 9a3.5 3.5 0 01.5 7H7z" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#38bdf8" letter-spacing="0.4">NCE CERTIFICATIONS</text>
+    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Cloud &amp; Python Training</text>
+    <line x1="14" y1="50" x2="252" y2="50" stroke="#38bdf8" stroke-width="0.6" opacity="0.25"/>
+    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Cloud Computing (FSC-NCE)</text>
+    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Python Programming (IT Club)</text>
+    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ CERT ]</text>
+  </g>
 </g>
-
-<!-- Card 2: NCE scholarship -->
-<g transform="translate(320, 60)" filter="url(#card-shadow)">
-  <rect width="250" height="100" rx="10" fill="#12102a" stroke="#19e3e6" stroke-width="1.2"/>
-  <rect width="250" height="4" rx="2" fill="#19e3e6" y="0"/>
-  <text x="14" y="30" font-family="'JetBrains Mono',monospace" font-size="18" fill="#19e3e6" filter="url(#glow)">🎓</text>
-  <text x="44" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#19e3e6" font-weight="bold" letter-spacing="1">FULL MERIT SCHOLARSHIP</text>
-  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">National College of Engineering</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="7" fill="#d9d4ee" opacity="0.6">100% tuition covered on academic merit</text>
-  <text x="14" y="77" font-family="'JetBrains Mono',monospace" font-size="7" fill="#19e3e6" opacity="0.7">BEI Program · T.U. Affiliate</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ merit-based ]</text>
-</g>
-
-<!-- Card 3: Liverpool scholarship -->
-<g transform="translate(600, 60)" filter="url(#card-shadow)">
-  <rect width="250" height="100" rx="10" fill="#12102a" stroke="#e643c8" stroke-width="1.2"/>
-  <rect width="250" height="4" rx="2" fill="#e643c8" y="0"/>
-  <text x="14" y="30" font-family="'JetBrains Mono',monospace" font-size="18" fill="#e643c8" filter="url(#glow)">🌐</text>
-  <text x="44" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#e643c8" font-weight="bold" letter-spacing="1">INT'L SCHOLARSHIP</text>
-  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">Liverpool International College</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="7" fill="#d9d4ee" opacity="0.6">Merit-based international recognition</text>
-  <text x="14" y="77" font-family="'JetBrains Mono',monospace" font-size="7" fill="#e643c8" opacity="0.7">International Excellence Award</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ merit-based ]</text>
-</g>
-
-<!-- Row 2 -->
-<!-- Card 4: GPA -->
-<g transform="translate(145, 185)" filter="url(#card-shadow)">
-  <rect width="250" height="100" rx="10" fill="#12102a" stroke="#43e68d" stroke-width="1.2"/>
-  <rect width="250" height="4" rx="2" fill="#43e68d" y="0"/>
-  <text x="14" y="30" font-family="'JetBrains Mono',monospace" font-size="18" fill="#43e68d" filter="url(#glow)">⭐</text>
-  <text x="44" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#43e68d" font-weight="bold" letter-spacing="1">PERFECT GPA</text>
-  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">Grade X · National Exam</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="22" fill="#43e68d" font-weight="bold" filter="url(#glow)">4.00</text>
-  <text x="90" y="72" font-family="'JetBrains Mono',monospace" font-size="8" fill="#d9d4ee" opacity="0.6">/ 4.00 GPA</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ flawless ]</text>
-</g>
-
-<!-- Card 5: Entrance exam -->
-<g transform="translate(425, 185)" filter="url(#card-shadow)">
-  <rect width="250" height="100" rx="10" fill="#12102a" stroke="#e6a543" stroke-width="1.2"/>
-  <rect width="250" height="4" rx="2" fill="#e6a543" y="0"/>
-  <text x="14" y="30" font-family="'JetBrains Mono',monospace" font-size="18" fill="#e6a543" filter="url(#glow)">⚡</text>
-  <text x="44" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#e6a543" font-weight="bold" letter-spacing="1">CRACKED ENTRANCE</text>
-  <text x="44" y="40" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">Engineering Entrance Exam</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="9" fill="#d9d4ee" opacity="0.7">Cleared on the first attempt</text>
-  <text x="14" y="77" font-family="'JetBrains Mono',monospace" font-size="7" fill="#e6a543" opacity="0.7">Competitive national examination</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ first try ]</text>
-</g>
-
-<!-- Card 6: Cloud/Python training -->
-<g transform="translate(705, 185)" filter="url(#card-shadow)">
-  <rect width="145" height="100" rx="10" fill="#12102a" stroke="#43a8e6" stroke-width="1.2"/>
-  <rect width="145" height="4" rx="2" fill="#43a8e6" y="0"/>
-  <text x="14" y="26" font-family="'JetBrains Mono',monospace" font-size="9" fill="#43a8e6" font-weight="bold" letter-spacing="1">TRAININGS</text>
-  <text x="14" y="46" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">☁ Cloud Computing</text>
-  <text x="14" y="62" font-family="'JetBrains Mono',monospace" font-size="7.5" fill="#d9d4ee" opacity="0.7">🐍 Python Programming</text>
-  <text x="14" y="77" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43a8e6" opacity="0.7">@ NCE</text>
-  <text x="14" y="92" font-family="'JetBrains Mono',monospace" font-size="7" fill="#43e68d" opacity="0.8">[ certified ]</text>
-</g>
+<rect x=".75" y=".75" width="898.5" height="324.5" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>
