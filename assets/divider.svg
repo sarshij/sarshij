@@ -1,32 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 42" width="1000" height="42" role="presentation" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 38" width="1000" height="38" role="presentation" aria-hidden="true">
 <defs>
   <linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="0.5" stop-color="#b47cff"/><stop offset="1" stop-color="#19e3e6"/></linearGradient>
   <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".14" stop-color="#fff"/><stop offset=".86" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
-  <filter id="gl" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.5"/></filter>
-  <mask id="m"><rect width="1000" height="42" fill="url(#f)"/></mask>
+  <mask id="m"><rect width="1000" height="38" fill="url(#f)"/></mask>
 </defs>
 <g mask="url(#m)" fill="none" stroke-linecap="round">
-  <!-- Baseline -->
-  <line x1="0" y1="21" x2="1000" y2="21" stroke="#2a2346" stroke-width="1" stroke-dasharray="3 6"/>
-  <!-- Secondary slow wave -->
-  <path d="M0 21 Q 40 10 80 21 T 160 21 T 240 21 T 320 21 T 400 21 T 480 21 T 560 21 T 640 21 T 720 21 T 800 21 T 880 21 T 960 21 T 1040 21 T 1120 21 T 1200 21 T 1280 21 T 1360 21" stroke="#8A2BE2" stroke-width="1.5" opacity=".65">
+  <line x1="0" y1="19" x2="1000" y2="19" stroke="#2a2346" stroke-width="1" stroke-dasharray="4 6"/>
+  <path d="M0 19 Q 40 9 80 19 T 160 19 T 240 19 T 320 19 T 400 19 T 480 19 T 560 19 T 640 19 T 720 19 T 800 19 T 880 19 T 960 19 T 1040 19 T 1120 19 T 1200 19 T 1280 19 T 1360 19" stroke="#8A2BE2" stroke-width="1.4" opacity=".6">
     <animateTransform attributeName="transform" type="translate" from="0 0" to="-160 0" dur="7s" repeatCount="indefinite"/>
   </path>
-  <!-- Primary glowing wave -->
-  <path d="M0 21 Q 25 5 50 21 T 100 21 T 150 21 T 200 21 T 250 21 T 300 21 T 350 21 T 400 21 T 450 21 T 500 21 T 550 21 T 600 21 T 650 21 T 700 21 T 750 21 T 800 21 T 850 21 T 900 21 T 950 21 T 1000 21 T 1050 21 T 1100 21 T 1150 21 T 1200 21 T 1250 21" stroke="url(#s)" stroke-width="2">
+  <path d="M0 19 Q 25 5 50 19 T 100 19 T 150 19 T 200 19 T 250 19 T 300 19 T 350 19 T 400 19 T 450 19 T 500 19 T 550 19 T 600 19 T 650 19 T 700 19 T 750 19 T 800 19 T 850 19 T 900 19 T 950 19 T 1000 19 T 1050 19 T 1100 19 T 1150 19 T 1200 19 T 1250 19" stroke="url(#s)" stroke-width="1.8">
     <animateTransform attributeName="transform" type="translate" from="0 0" to="-100 0" dur="3.5s" repeatCount="indefinite"/>
   </path>
-  <!-- Travelling neon data packet -->
-  <circle cy="21" r="3" fill="#19e3e6" filter="url(#gl)">
-    <animate attributeName="cx" values="60;940;60" dur="5.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.2;1;0.2" dur="5.5s" repeatCount="indefinite"/>
-  </circle>
 </g>
-<!-- Center HUD telemetry node -->
-<g transform="translate(500, 21)">
-  <circle r="10" fill="#0d0b16" stroke="url(#s)" stroke-width="1.2"/>
-  <rect x="-3.5" y="-3.5" width="7" height="7" transform="rotate(45)" fill="#19e3e6">
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
-  </rect>
-</g>
+<rect x="450.4" y="8" width="99.2" height="22" rx="4" fill="#0d0b16" stroke="#8A2BE2" stroke-width="0.9" stroke-opacity="0.7"/>
+<text x="460.4" y="22.5" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,'Courier New',monospace" font-size="11" fill="#19e3e6" textLength="79.2" lengthAdjust="spacing">[--0x8F2A--]
+  <animate attributeName="opacity" values="1;0.45;1" dur="2.5s" repeatCount="indefinite"/>
+</text>
 </svg>

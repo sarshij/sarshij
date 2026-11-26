@@ -1,81 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 326" width="900" height="326" role="img" aria-label="Sarshij Karn achievements and awards">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 356" width="900" height="356" role="img" aria-label="Sarshij Karn achievements in ASCII format">
 <defs>
   <linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#19e3e6"/></linearGradient>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0b16"/><stop offset="1" stop-color="#141029"/></linearGradient>
-  <clipPath id="win"><rect width="900" height="326" rx="14"/></clipPath>
+  <clipPath id="win"><rect width="900" height="356" rx="14"/></clipPath>
 </defs>
 <g clip-path="url(#win)" font-family="'Fira Code','JetBrains Mono',Consolas,Menlo,'Courier New',monospace">
-  <rect width="900" height="326" fill="url(#bg)"/>
-  <g font-size="11.5"><text x="28.0" y="39.0" fill="#b47cff" textLength="47.6" lengthAdjust="spacing">sarshij</text><text x="75.6" y="39.0" fill="#7b7399" textLength="6.8" lengthAdjust="spacing">@</text><text x="82.4" y="39.0" fill="#19e3e6" textLength="34.0" lengthAdjust="spacing">nepal</text><text x="116.4" y="39.0" fill="#7b7399" textLength="27.2" lengthAdjust="spacing">:~$ </text><text x="143.6" y="39.0" fill="#e8e4f5" textLength="190.4" lengthAdjust="spacing">./achievements.sh --unlocked</text></g>
-  <text x="872" y="39" text-anchor="end" font-size="9.5" fill="#4ade80">● 6 / 6 UNLOCKED</text>
-  <line x1="28" y1="48" x2="872" y2="48" stroke="url(#bd)" stroke-width="1" opacity="0.5"/>
+  <rect width="900" height="356" fill="url(#bg)"/>
+  <rect width="900" height="38" fill="#15122a"/>
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f57" opacity=".88"/><circle cx="42" cy="19" r="5.5" fill="#febc2e" opacity=".88"/><circle cx="62" cy="19" r="5.5" fill="#28c840" opacity=".88"/>
+  <text x="450.0" y="23" text-anchor="middle" font-size="11.5" fill="#7b7399">sarshij@nepal: ~/achievements.log</text>
+
+  <g font-size="11.5"><text x="26.0" y="66.0" fill="#b47cff" textLength="47.6" lengthAdjust="spacing">sarshij</text><text x="73.6" y="66.0" fill="#7b7399" textLength="6.8" lengthAdjust="spacing">@</text><text x="80.4" y="66.0" fill="#19e3e6" textLength="34.0" lengthAdjust="spacing">nepal</text><text x="114.4" y="66.0" fill="#7b7399" textLength="27.2" lengthAdjust="spacing">:~$ </text><text x="141.6" y="66.0" fill="#e8e4f5" textLength="156.4" lengthAdjust="spacing">./achievements.sh --log</text></g>
+  <text x="874" y="66" text-anchor="end" font-size="10" fill="#4ade80">[ 6 / 6 UNLOCKED ]</text>
   
-  <g transform="translate(28,64)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#b47cff" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#b47cff" opacity="0.85"/>
-    <g transform="translate(12,14)"><path d="M7 4h10v5a5 5 0 01-10 0V4zM7 6H4v2a3 3 0 003 3M17 6h3v2a3 3 0 01-3 3M12 14v4M8 20h8" fill="none" stroke="#b47cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#b47cff" letter-spacing="0.4">STARTUP HACKATHON 2025</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">AI for Social Impact &amp; Scale</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#b47cff" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">The Startup Network · Embark</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">PHDCCI India-Nepal Centre</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 2025 ]</text>
+  <g>
+    <rect x="26" y="82" width="268" height="118" rx="6" fill="#0f0c20" stroke="#b47cff" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="38.0" y="104.0" fill="#b47cff" textLength="118.8" lengthAdjust="spacing">[★] HACKATHON 2025</text></g>
+    <g font-size="10.5"><text x="38.0" y="122.0" fill="#e8e4f5" textLength="140.8" lengthAdjust="spacing">| AI for Social Impact</text></g>
+    <g font-size="10.5"><text x="38.0" y="143.0" fill="#c4bddb" textLength="147.2" lengthAdjust="spacing">|-- The Startup Network</text></g>
+    <g font-size="10.5"><text x="38.0" y="160.0" fill="#c4bddb" textLength="121.6" lengthAdjust="spacing">|-- Embark &amp; PHDCCI</text></g>
+    <g font-size="9.8" font-weight="700"><text x="38.0" y="182.0" fill="#4ade80" textLength="119.7" lengthAdjust="spacing">+-- [2025] UNLOCKED</text></g>
   </g>
-  <g transform="translate(317,64)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#19e3e6" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#19e3e6" opacity="0.85"/>
-    <g transform="translate(12,14)"><path d="M12 4L2 9l10 5 10-5-10-5zM6 11.5V16c0 1.8 2.7 3 6 3s6-1.2 6-3v-4.5" fill="none" stroke="#19e3e6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#19e3e6" letter-spacing="0.4">FULL MERIT SCHOLARSHIP</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">National College of Engg</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#19e3e6" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">100% Engineering Scholarship</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">BEI Program · T.U. Affiliate</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ MERIT ]</text>
+  <g>
+    <rect x="316" y="82" width="268" height="118" rx="6" fill="#0f0c20" stroke="#19e3e6" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="328.0" y="104.0" fill="#19e3e6" textLength="132.0" lengthAdjust="spacing">[^] FULL SCHOLARSHIP</text></g>
+    <g font-size="10.5"><text x="328.0" y="122.0" fill="#e8e4f5" textLength="166.4" lengthAdjust="spacing">| National College of Engg</text></g>
+    <g font-size="10.5"><text x="328.0" y="143.0" fill="#c4bddb" textLength="140.8" lengthAdjust="spacing">|-- 100% Merit Tuition</text></g>
+    <g font-size="10.5"><text x="328.0" y="160.0" fill="#c4bddb" textLength="147.2" lengthAdjust="spacing">|-- BEI · T.U. Entrance</text></g>
+    <g font-size="9.8" font-weight="700"><text x="328.0" y="182.0" fill="#4ade80" textLength="126.0" lengthAdjust="spacing">+-- [MERIT] UNLOCKED</text></g>
   </g>
-  <g transform="translate(606,64)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#ff2bd6" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#ff2bd6" opacity="0.85"/>
-    <g transform="translate(12,14)"><circle cx="12" cy="9" r="5" fill="none" stroke="#ff2bd6" stroke-width="1.8"/><path d="M9 13.5L7.5 21 12 18.5 16.5 21 15 13.5" fill="none" stroke="#ff2bd6" stroke-width="1.8" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#ff2bd6" letter-spacing="0.4">MERIT SCHOLARSHIP</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Liverpool Int'l College</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#ff2bd6" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Grade XII Academic Excellence</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">NEB Board · GPA 3.53</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ HONOR ]</text>
+  <g>
+    <rect x="606" y="82" width="268" height="118" rx="6" fill="#0f0c20" stroke="#ff2bd6" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="618.0" y="104.0" fill="#ff2bd6" textLength="138.6" lengthAdjust="spacing">[+] MERIT SCHOLARSHIP</text></g>
+    <g font-size="10.5"><text x="618.0" y="122.0" fill="#e8e4f5" textLength="160.0" lengthAdjust="spacing">| Liverpool Int'l College</text></g>
+    <g font-size="10.5"><text x="618.0" y="143.0" fill="#c4bddb" textLength="153.6" lengthAdjust="spacing">|-- Grade XII Excellence</text></g>
+    <g font-size="10.5"><text x="618.0" y="160.0" fill="#c4bddb" textLength="102.4" lengthAdjust="spacing">|-- NEB GPA 3.53</text></g>
+    <g font-size="9.8" font-weight="700"><text x="618.0" y="182.0" fill="#4ade80" textLength="126.0" lengthAdjust="spacing">+-- [HONOR] UNLOCKED</text></g>
   </g>
-  <g transform="translate(28,190)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#4ade80" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#4ade80" opacity="0.85"/>
-    <g transform="translate(12,14)"><path d="M12 3l2.6 5.5 6 .8-4.3 4.2 1 6-5.3-2.9-5.3 2.9 1-6L3.4 9.3l6-.8L12 3z" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#4ade80" letter-spacing="0.4">PERFECT 4.00 GPA</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Grade X National Board</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#4ade80" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Happyland Secondary School</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Flawless 4.00 / 4.00 Score</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 4.00 ]</text>
+  <g>
+    <rect x="26" y="214" width="268" height="118" rx="6" fill="#0f0c20" stroke="#4ade80" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="38.0" y="236.0" fill="#4ade80" textLength="132.0" lengthAdjust="spacing">[#] PERFECT 4.00 GPA</text></g>
+    <g font-size="10.5"><text x="38.0" y="254.0" fill="#e8e4f5" textLength="153.6" lengthAdjust="spacing">| Grade X National Board</text></g>
+    <g font-size="10.5"><text x="38.0" y="275.0" fill="#c4bddb" textLength="147.2" lengthAdjust="spacing">|-- Happyland Secondary</text></g>
+    <g font-size="10.5"><text x="38.0" y="292.0" fill="#c4bddb" textLength="134.4" lengthAdjust="spacing">|-- 4.00 / 4.00 Score</text></g>
+    <g font-size="9.8" font-weight="700"><text x="38.0" y="314.0" fill="#4ade80" textLength="119.7" lengthAdjust="spacing">+-- [4.00] UNLOCKED</text></g>
   </g>
-  <g transform="translate(317,190)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#f59e0b" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#f59e0b" opacity="0.85"/>
-    <g transform="translate(12,14)"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#f59e0b" letter-spacing="0.4">ENTRANCE CRACKED</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">First-Attempt Selection</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#f59e0b" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Cleared Competitive National</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Engineering Entrance Exam</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ 1ST TRY ]</text>
+  <g>
+    <rect x="316" y="214" width="268" height="118" rx="6" fill="#0f0c20" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="328.0" y="236.0" fill="#f59e0b" textLength="132.0" lengthAdjust="spacing">[&gt;] ENTRANCE CRACKED</text></g>
+    <g font-size="10.5"><text x="328.0" y="254.0" fill="#e8e4f5" textLength="147.2" lengthAdjust="spacing">| 1st-Attempt Selection</text></g>
+    <g font-size="10.5"><text x="328.0" y="275.0" fill="#c4bddb" textLength="153.6" lengthAdjust="spacing">|-- Competitive National</text></g>
+    <g font-size="10.5"><text x="328.0" y="292.0" fill="#c4bddb" textLength="153.6" lengthAdjust="spacing">|-- Engineering Entrance</text></g>
+    <g font-size="9.8" font-weight="700"><text x="328.0" y="314.0" fill="#4ade80" textLength="138.6" lengthAdjust="spacing">+-- [1ST TRY] UNLOCKED</text></g>
   </g>
-  <g transform="translate(606,190)">
-    <rect width="266" height="112" rx="10" fill="#110e22" stroke="#38bdf8" stroke-width="1.1" stroke-opacity="0.55"/>
-    <rect width="266" height="3" rx="1.5" fill="#38bdf8" opacity="0.85"/>
-    <g transform="translate(12,14)"><path d="M7 18a4 4 0 01-.8-7.9A5.5 5.5 0 0117 9a3.5 3.5 0 01.5 7H7z" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linejoin="round"/></g>
-    <text x="44" y="25" font-size="10.2" font-weight="800" fill="#38bdf8" letter-spacing="0.4">NCE CERTIFICATIONS</text>
-    <text x="44" y="39" font-size="9.5" fill="#e8e4f5" opacity="0.9">Cloud &amp; Python Training</text>
-    <line x1="14" y1="50" x2="252" y2="50" stroke="#38bdf8" stroke-width="0.6" opacity="0.25"/>
-    <text x="14" y="68" font-size="9.8" fill="#cfc8e8">Cloud Computing (FSC-NCE)</text>
-    <text x="14" y="83" font-size="9.8" fill="#cfc8e8">Python Programming (IT Club)</text>
-    <text x="14" y="101" font-size="8.8" font-weight="700" fill="#4ade80">[ CERT ]</text>
+  <g>
+    <rect x="606" y="214" width="268" height="118" rx="6" fill="#0f0c20" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="6 2"/>
+    <g font-size="11" font-weight="700"><text x="618.0" y="236.0" fill="#38bdf8" textLength="145.2" lengthAdjust="spacing">[=] NCE CERTIFICATIONS</text></g>
+    <g font-size="10.5"><text x="618.0" y="254.0" fill="#e8e4f5" textLength="160.0" lengthAdjust="spacing">| Cloud &amp; Python Training</text></g>
+    <g font-size="10.5"><text x="618.0" y="275.0" fill="#c4bddb" textLength="121.6" lengthAdjust="spacing">|-- Cloud (FSC-NCE)</text></g>
+    <g font-size="10.5"><text x="618.0" y="292.0" fill="#c4bddb" textLength="128.0" lengthAdjust="spacing">|-- Python (IT Club)</text></g>
+    <g font-size="9.8" font-weight="700"><text x="618.0" y="314.0" fill="#4ade80" textLength="119.7" lengthAdjust="spacing">+-- [CERT] UNLOCKED</text></g>
   </g>
 </g>
-<rect x=".75" y=".75" width="898.5" height="324.5" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="898.5" height="354.5" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>

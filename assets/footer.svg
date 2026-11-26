@@ -11,9 +11,9 @@
   <path d="M0 112 Q 45 96 90 112 T 180 112 T 270 112 T 360 112 T 450 112 T 540 112 T 630 112 T 720 112 T 810 112 T 900 112 T 990 112 T 1080 112 T 1170 112 T 1260 112 T 1350 112 T 1440 112 L1360 150 L0 150 Z" fill="url(#wg)" opacity="0.26"><animateTransform attributeName="transform" type="translate" from="0 0" to="-180 0" dur="8s" repeatCount="indefinite"/></path>
   <path d="M0 120 Q 80 108 160 120 T 320 120 T 480 120 T 640 120 T 800 120 T 960 120 T 1120 120 T 1280 120 T 1440 120 T 1600 120 T 1760 120 L1640 150 L0 150 Z" fill="url(#wg)" opacity="0.2"><animateTransform attributeName="transform" type="translate" from="0 0" to="-320 0" dur="14s" repeatCount="indefinite"/></path>
   
-  <text x="500" y="44" font-size="12" fill="#19e3e6" letter-spacing="2">// end of transmission</text>
-  <text x="500" y="74" font-size="17" fill="#e8e4f5">Built with passion and futuristic vision in Nepal</text>
-  <text x="500" y="96" font-size="11" fill="#7b7399">© 2026 Sarshij Karn   ·   sarshijkarn.com.np</text>
+  <text x="500" y="42" font-size="11.5" fill="#19e3e6" letter-spacing="2">+--[ // END OF TRANSMISSION ]--+</text>
+  <text x="500" y="74" font-size="17" fill="#e8e4f5">| Built with passion and futuristic vision in Nepal |</text>
+  <text x="500" y="98" font-size="11" fill="#7b7399">+-- (c) 2026 Sarshij Karn  ::  sarshijkarn.com.np --+</text>
 </g>
 <rect x=".75" y=".75" width="998.5" height="148.5" rx="14" fill="none" stroke="url(#bd)" stroke-width="1.5"/>
 </svg>
