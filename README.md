@@ -14,7 +14,15 @@
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=sarshij&label=Visitors&color=8A2BE2&style=flat-square" alt="Profile views">
+</div>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake.svg" width="100%">
+</picture>
 
 </div>
 
@@ -87,21 +95,10 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<img src="assets/divider.svg" width="100%" alt="">
-
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake.svg">
-  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/sarshij/sarshij/output/github-snake.svg" width="100%">
-</picture>
-
-<br>
-
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarshij&layout=compact&hide_border=true&bg_color=0d0b16&title_color=b47cff&text_color=d9d4ee" alt="Top languages">
-
 
 </div>
 
