@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn — Electronics engineer. Teaching circuits to think, and keeping them secure. Google Me: Sarshij Karn." width="100%"></a>
+<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn — Electronics, Communication & Information Engineer. Google Me: Sarshij Karn." width="100%"></a>
 
 <br>
 
