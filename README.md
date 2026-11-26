@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with full resume dossier">
+<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn — Electronics, Communication & Information Engineer. Google Me: Sarshij Karn." width="100%"></a>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<a href="https://sarshijkarn.com.np"><img src="assets/header.svg" alt="Sarshij Karn — Electronics, Communication & Information Engineer. Google Me: Sarshij Karn." width="100%"></a>
+<img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with full resume dossier">
 
 <br>
 
