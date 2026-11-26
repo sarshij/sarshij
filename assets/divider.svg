@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 36" width="1000" height="36" role="presentation" aria-hidden="true">
+<defs>
+  <linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#19e3e6"/></linearGradient>
+  <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".18" stop-color="#fff"/><stop offset=".82" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  <mask id="m"><rect width="1000" height="36" fill="url(#f)"/></mask>
+</defs>
+<g mask="url(#m)" fill="none" stroke-linecap="round">
+  <path d="M0 18 Q 40 6 80 18 T 160 18 T 240 18 T 320 18 T 400 18 T 480 18 T 560 18 T 640 18 T 720 18 T 800 18 T 880 18 T 960 18 T 1040 18 T 1120 18 T 1200 18 T 1280 18 T 1360 18" stroke="#8A2BE2" stroke-width="1.6" opacity=".7">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-160 0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 18 Q 25 2 50 18 T 100 18 T 150 18 T 200 18 T 250 18 T 300 18 T 350 18 T 400 18 T 450 18 T 500 18 T 550 18 T 600 18 T 650 18 T 700 18 T 750 18 T 800 18 T 850 18 T 900 18 T 950 18 T 1000 18 T 1050 18 T 1100 18 T 1150 18 T 1200 18 T 1250 18" stroke="url(#s)" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-100 0" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+</g>
+</svg>
