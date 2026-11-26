@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="ASCII art representation of Sarshij Karn">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a0818"/>
+    <stop offset="100%" stop-color="#0d0b16"/>
+  </linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#8A2BE2"/>
+    <stop offset="50%" stop-color="#19e3e6"/>
+    <stop offset="100%" stop-color="#e643c8"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#b47cff"/>
+    <stop offset="100%" stop-color="#19e3e6"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glow-s">
+    <feGaussianBlur stdDeviation="1.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8A2BE2" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#8A2BE2" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<rect width="900" height="500" fill="url(#bg)" rx="16"/>
+<rect width="900" height="500" fill="none" rx="16" stroke="#8A2BE2" stroke-width="1.5" opacity="0.5"/>
+
+<!-- Corner decorations -->
+<path d="M20 20 L60 20 M20 20 L20 60" stroke="url(#g1)" stroke-width="2" fill="none"/>
+<path d="M880 20 L840 20 M880 20 L880 60" stroke="url(#g1)" stroke-width="2" fill="none"/>
+<path d="M20 480 L60 480 M20 480 L20 440" stroke="url(#g1)" stroke-width="2" fill="none"/>
+<path d="M880 480 L840 480 M880 480 L880 440" stroke="url(#g1)" stroke-width="2" fill="none"/>
+
+<!-- Scanline sweep -->
+<rect x="16" y="0" width="868" height="60" fill="url(#scan)" rx="4" opacity="0.6">
+  <animateTransform attributeName="transform" type="translate" from="0 -60" to="0 560" dur="5s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Header -->
+<text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" fill="#19e3e6" letter-spacing="6" opacity="0.7">[ ASCII PORTRAIT · SARSHIJ KARN ]</text>
+<line x1="40" y1="48" x2="860" y2="48" stroke="url(#g1)" stroke-width="1" opacity="0.4"/>
+
+<!-- ═══ ASCII FACE (left panel) ═══ -->
+<!-- Each row is carefully crafted -->
+<g transform="translate(55, 65)" font-family="'JetBrains Mono','Courier New',monospace" font-size="11.5" filter="url(#glow-s)">
+  <text y="20"  fill="#8A2BE2" opacity="0.5">          . . . . ░░░░▒▒▒▒▒▒░░░ . . . .</text>
+  <text y="36"  fill="#8A2BE2" opacity="0.65">      . .░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░. .</text>
+  <text y="52"  fill="#8A2BE2" opacity="0.75">    .░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░.</text>
+  <text y="68"  fill="#b47cff" opacity="0.8"> .░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░.</text>
+  <text y="84"  fill="#b47cff" opacity="0.85">.░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░.</text>
+  <text y="100" fill="#b47cff" opacity="0.9">.▒▒▒▒▒▓▓██████████████████▓▓▒▒▒▒▒▒.</text>
+  <text y="116" fill="#19e3e6" opacity="0.9">.▒▒▒▒▓█████████████████████████▒▒▒.</text>
+  <text y="132" fill="#19e3e6">.▒▒▒▓███▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓███▓▒▒▒.</text>
+  <text y="148" fill="#19e3e6">.▒▒▓███▒  ░░░░░░░░░░░░░░░  ▒███▓▒▒.</text>
+  <text y="164" fill="#d9d4ee">.▒▓███▒  ░░╔═══════════╗░░  ▒███▓▒.</text>
+  <text y="180" fill="#d9d4ee" filter="url(#glow)">.▒███▒  ░░║ ◉       ◉ ║░░  ▒███▓▒.</text>
+  <text y="196" fill="#d9d4ee">.▒███▒  ░░║           ║░░  ▒████▒.</text>
+  <text y="212" fill="#d9d4ee">.▒███▒  ░░╚═══════════╝░░  ▒████▒.</text>
+  <text y="228" fill="#d9d4ee">.▒███▓░░░░░  ░░░░░░░  ░░░░░▓████▒.</text>
+  <text y="244" fill="#d9d4ee">.▒▓███░░░░░░░░░░░░░░░░░░░░░████▓▒.</text>
+  <text y="260" fill="#b47cff">.▒▒███▓░  ░░░░░░░░░░░░░  ░▓███▒▒.</text>
+  <text y="276" fill="#b47cff">.▒▒▒████░░  ░╔═══════╗░  ░████▒▒▒.</text>
+  <text y="292" fill="#b47cff" filter="url(#glow)">.▒▒▒▓████░░░░║ ━━━━━ ║░░░████▓▒▒▒.</text>
+  <text y="308" fill="#8A2BE2">.▒▒▒▒▓████▒░░╚═══════╝░▒████▓▒▒▒▒.</text>
+  <text y="324" fill="#8A2BE2"> .▒▒▒▒▓█████▓▒▒▒▒▒▒▒▒▓█████▓▒▒▒▒.</text>
+  <text y="340" fill="#8A2BE2">  .▒▒▒▒▒▓██████████████████▓▒▒▒▒.</text>
+  <text y="356" fill="#8A2BE2" opacity="0.85">    .░▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░.</text>
+  <text y="372" fill="#8A2BE2" opacity="0.7">      . .░░░▒▒▒▒▒▒▒▒▒░░░. . .</text>
+  <text y="388" fill="#8A2BE2" opacity="0.4">          . . . . . . . . . .</text>
+</g>
+
+<!-- ═══ RIGHT: INFO PANEL ═══ -->
+<g transform="translate(480, 65)" font-family="'JetBrains Mono','Courier New',monospace">
+  <!-- WHOIS terminal block -->
+  <text x="0" y="18" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">┌─[ sarshij@nepal: whois sarshij ]──────────────────────┐</text>
+
+  <text x="12" y="38" font-size="9" fill="#b47cff">NAME       </text><text x="96" y="38" font-size="9" fill="#d9d4ee">Sarshij Karn</text>
+  <text x="12" y="54" font-size="9" fill="#b47cff">HANDLE     </text><text x="96" y="54" font-size="9" fill="#19e3e6">@sarshij</text>
+  <text x="12" y="70" font-size="9" fill="#b47cff">ROLE       </text><text x="96" y="70" font-size="9" fill="#d9d4ee">Electronics Engineer</text>
+  <text x="12" y="86" font-size="9" fill="#b47cff">FOCUS      </text><text x="96" y="86" font-size="9" fill="#e643c8">AI · Cybersecurity · Embedded</text>
+  <text x="12" y="102" font-size="9" fill="#b47cff">DEGREE     </text><text x="96" y="102" font-size="9" fill="#d9d4ee">BEI · NCE · T.U. · Nepal</text>
+  <text x="12" y="118" font-size="9" fill="#b47cff">STATUS     </text><text x="96" y="118" font-size="9" fill="#43e68d">● ACTIVE  building things that matter</text>
+  <text x="12" y="134" font-size="9" fill="#b47cff">SIGNATURE  </text><text x="96" y="134" font-size="9" fill="#b47cff">█▓▒░ 0x8F2A ░▒▓█</text>
+
+  <text x="0" y="150" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">└───────────────────────────────────────────────────────┘</text>
+
+  <!-- divider -->
+  <line x1="0" y1="162" x2="400" y2="162" stroke="#8A2BE2" stroke-width="1" opacity="0.4"/>
+
+  <!-- PHILOSOPHY -->
+  <text x="0" y="182" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">┌─[ ./philosophy.sh ]───────────────────────────────────┐</text>
+  <text x="12" y="202" font-size="8.5" fill="#d9d4ee" opacity="0.85">"Teaching circuits to think,</text>
+  <text x="12" y="218" font-size="8.5" fill="#d9d4ee" opacity="0.85"> and keeping them secure."</text>
+  <text x="12" y="238" font-size="8.5" fill="#8A2BE2" opacity="0.7">— Sarshij Karn</text>
+  <text x="0" y="254" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">└───────────────────────────────────────────────────────┘</text>
+
+  <!-- divider -->
+  <line x1="0" y1="266" x2="400" y2="266" stroke="#8A2BE2" stroke-width="1" opacity="0.4"/>
+
+  <!-- CURRENT MISSION -->
+  <text x="0" y="286" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">┌─[ ./current_mission.sh ]──────────────────────────────┐</text>
+  <g font-size="8.5">
+    <text x="12" y="306" fill="#43e68d">▶ </text><text x="28" y="306" fill="#d9d4ee">Building AI-powered embedded systems</text>
+    <text x="12" y="322" fill="#43e68d">▶ </text><text x="28" y="322" fill="#d9d4ee">Exploring cybersecurity &amp; networking</text>
+    <text x="12" y="338" fill="#43e68d">▶ </text><text x="28" y="338" fill="#d9d4ee">Electronics engineering @ NCE, T.U.</text>
+    <text x="12" y="354" fill="#43e68d">▶ </text><text x="28" y="354" fill="#d9d4ee">Creating: sarshijkarn.com.np</text>
+  </g>
+  <text x="0" y="370" font-size="9" fill="#19e3e6" letter-spacing="2" opacity="0.7">└───────────────────────────────────────────────────────┘</text>
+
+  <!-- Blinking cursor -->
+  <rect x="0" y="386" width="8" height="12" fill="#19e3e6">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="12" y="397" font-size="9" fill="#19e3e6" opacity="0.5">_</text>
+
+  <!-- Bottom status bar -->
+  <text x="0" y="425" font-size="8" fill="#8A2BE2" opacity="0.4" letter-spacing="1">[ LOCATION: Kathmandu, Nepal · 27.65°N 85.32°E · UTC+5:45 ]</text>
+</g>
+</svg>

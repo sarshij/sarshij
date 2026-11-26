@@ -36,65 +36,34 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<h2 align="center">Stack</h2>
+<!-- ░░░ STACK ░░░ -->
 
-```text
-      ╷ ╷ ╷ ╷ ╷ ╷ ╷ ╷           sarshij@nepal
-  ┌───┴─┴─┴─┴─┴─┴─┴─┴───┐       ─────────────
-──┤                     ├──     Languages  Python · C/C++ · JavaScript · TypeScript
-──┤    S A R S H I J    ├──     Frontend   React · Next.js · Vite · HTML/CSS
-──┤   ░▒▓█ 0x8F2A █▓▒░  ├──     AI/ML      TensorFlow · PyTorch · OpenCV · MediaPipe
-──┤   BEI · NCE · T.U.  ├──     Embedded   Arduino · MCUs · circuit sim · PCB design
-──┤                     ├──     Security   Linux · Kali · networking · automation
-  └───┬─┬─┬─┬─┬─┬─┬─┬───┘       Shell      Bash · PowerShell
-      ╵ ╵ ╵ ╵ ╵ ╵ ╵ ╵           Host       Acer Nitro V 16 · Ryzen 7 8845HS · RTX 4050
-```
+<img src="assets/stack.svg" width="100%" alt="Sarshij's tech stack — circuit chip with animated skill bars">
 
+<div align="center">
 
-<table>
-<tr>
-<td><b>Languages</b></td>
-<td><img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,bash,powershell" alt="Languages"></td>
-</tr>
-<tr>
-<td><b>Web</b></td>
-<td><img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vite,nodejs,vercel,cloudflare" alt="Web"></td>
-</tr>
-<tr>
-<td><b>AI / ML</b></td>
-<td><img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv" alt="AI and ML"> <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square" alt="MediaPipe"> <img src="https://img.shields.io/badge/SBERT-8A2BE2?style=flat-square" alt="SBERT"> <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square" alt="n8n"></td>
-</tr>
-<tr>
-<td><b>Embedded</b></td>
-<td><img src="https://skillicons.dev/icons?i=arduino" alt="Arduino"> <img src="https://img.shields.io/badge/PCB%20design-1f6f43?style=flat-square" alt="PCB design"> <img src="https://img.shields.io/badge/Circuit%20simulation-6a35b0?style=flat-square" alt="Circuit simulation"></td>
-</tr>
-<tr>
-<td><b>Security + OS</b></td>
-<td><img src="https://skillicons.dev/icons?i=linux,kali,bash" alt="Linux and Kali"></td>
-</tr>
-<tr>
-<td><b>Workflow</b></td>
-<td><img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode" alt="Git, GitHub, Actions, VS Code"></td>
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,bash" alt="Languages" title="Languages">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,nodejs,html,css" alt="Web" title="Web">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,arduino" alt="AI · Embedded" title="AI & Embedded">
+<img src="https://skillicons.dev/icons?i=linux,kali,git,github,githubactions,vscode" alt="Security · DevOps" title="Security & DevOps">
+
+</div>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<details>
-<summary><code>./achievements.sh</code></summary>
-<br>
+<!-- ░░░ IDENTITY / ASCII FACE ░░░ -->
 
-- Startup Hackathon 2025, theme "AI for Social Impact and Scale" (The Startup Network, Embark College and PHDCCI)
-- Full merit scholarship at National College of Engineering
-- Merit-based scholarship at Liverpool International College
-- Grade X: GPA 4.00
-- Cracked the engineering entrance exam on the first attempt
-- Cloud Computing and Python Programming trainings at NCE
-
-</details>
+<img src="assets/ascii-face.svg" width="100%" alt="ASCII portrait of Sarshij Karn with identity panel">
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<!-- ░░░ ACHIEVEMENTS ░░░ -->
+
+<img src="assets/achievements.svg" width="100%" alt="Sarshij Karn's achievements — hackathon, scholarships, perfect GPA">
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<!-- ░░░ STATS ░░░ -->
 
 <div align="center">
 
@@ -104,14 +73,9 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<!-- ░░░ SECRET ░░░ -->
 
-<details>
-<summary><code>cat secret.txt</code></summary>
-<br>
-
-If you scrolled this far, you read READMEs for fun. We'll get along.
-
-</details>
+<img src="assets/secret.svg" width="100%" alt="Secret message for curious readers">
 
 <br>
 
